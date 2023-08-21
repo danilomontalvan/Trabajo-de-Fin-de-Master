@@ -1,9 +1,9 @@
 <?php
 // Datos de conexión a la base de datos
-$serverName = "DELTA\DELTA_SQL";
-$database = "Master";
-$username = "sa";
-$password = "Sistemas.23";
+$serverName = "*****";
+$database = "*****";
+$username = "*****";
+$password = "*****";
 
 
 // Intenta establecer la conexión
