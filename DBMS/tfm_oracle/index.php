@@ -1,10 +1,10 @@
 <?php
 // Configuración de la conexión a la base de datos Oracle
-$host = '172.16.3.2';
-$puerto = '1521';
-$sid = 'ENKA';
-$usuario = 'COMERCIAL';
-$contrasena = '7J7H2M';
+$host = '*******';
+$puerto = '****';
+$sid = '****';
+$usuario = '*****';
+$contrasena = '******';
 
 // Intentar establecer la conexión
 $conn = oci_connect($usuario, $contrasena, "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=$host)(PORT=$puerto))(CONNECT_DATA=(SID=$sid)))");
