@@ -20,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $usuario = $_POST["usuario"];
         $contrasena = $_POST["contrasena"];
         try {
-            //$sql = "select * from openrowset('SQLoledb','uid=sa;pwd=Sistemas.23;Network=DBMSSOCN; Address= 172.16.3.9, 80 ;timeout=5', 'select * from table')" ;
             $sql = "SELECT usuario FROM usuarios WHERE usuario = '". $usuario . "'AND contrasena = '" .$contrasena."' AND estado IS NULL" ;
             $stmt = $conn->prepare($sql);
             $stmt = $conn->query($sql);
